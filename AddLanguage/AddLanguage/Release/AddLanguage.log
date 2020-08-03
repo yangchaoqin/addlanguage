@@ -1,0 +1,17 @@
+﻿生成启动时间为 2020/7/22 16:58:16。
+     1>项目“D:\gitlab\study\AddLanguage\AddLanguage\AddLanguage.vcxproj”在节点 2 上(Build 个目标)。
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\gitlab\study\AddLanguage\Release\AddLanguage.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:.\bin utilities.lib soui.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"D:\gitlab\study\AddLanguage\Release\AddLanguage.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\gitlab\study\AddLanguage\Release\AddLanguage.lib" /MACHINE:X86 /SAFESEH /LTCG Release\AddLanguage.res
+         Release\AddAll.obj
+         Release\AddLanguage.obj
+         Release\MainDlg.obj
+         Release\MyDefine.obj
+         Release\stdafx.obj
+         正在生成代码
+         已完成代码的生成
+         AddLanguage.vcxproj -> D:\gitlab\study\AddLanguage\Release\AddLanguage.exe
+     1>已完成生成项目“D:\gitlab\study\AddLanguage\AddLanguage\AddLanguage.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.45

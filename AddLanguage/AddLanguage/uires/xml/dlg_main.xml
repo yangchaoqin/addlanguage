@@ -1,0 +1,60 @@
+﻿<SOUI name="mainWindow" title="@string/title" bigIcon="ICON_LOGO:32" smallIcon="ICON_LOGO:16" width="850" height="900"  margin="5,5,5,5"  resizable="0" wndType="appMain"
+appWnd="1"
+translucent="1" 
+>
+  <root skin="_skin.sys.wnd.bkgnd" cache="1">
+    <caption pos="0,0,-0,30" show="1" font="adding:0">
+      <icon pos="10,8" src="ICON_LOGO:16"/>
+      <text pos="29,9">@string/title</text>
+      <imgbtn name="btn_close" skin="_skin.sys.btn.close"    pos="-45,0" tip="close" animate="1"/>
+      <imgbtn name="btn_restore" skin="_skin.sys.btn.restore"  pos="-83,0" show="0" animate="1" />
+      <imgbtn name="btn_min" skin="_skin.sys.btn.minimize" pos="-83,0" animate="1" />
+    </caption>
+    <window pos="5,[2,-5,-5" colorBkgnd="#dcdcdc">
+      <combobox name="cbx_business" pos="50,{15,@200,@30" dropDown="1" dropHeight="300" class="cls_edit" dotted="0" animateTime="200" curSel="0"  focusable="0">
+        <liststyle class="cls_edit"  itemSkin="skin_tab_left"  itemHeight="30" colorText="#000000" colorSelText="#FFFFFF" colorItemBkgnd="#FFFFFF" colorItemSelBkgnd="#000088"/>
+         <editstyle inset="5,0,5,0" colorText="#000000" align="left" colorBkgnd="#FFFFFF"/>
+         <items>
+          <item text="行情文案"  data="100"/>
+          <item text="交易文案"  data="101"/>
+         </items>
+       </combobox>
+      <combobox name="cbx_towhere" pos="|0,{0,@200,@30" offset="-0.5,0" dropDown="1" dropHeight="300" class="cls_edit" dotted="0" animateTime="200" curSel="0" focusable="0">
+         <liststyle class="cls_edit" itemSkin="skin_tab_left"  itemHeight="30" colorText="#000000" colorSelText="#FFFFFF" colorItemBkgnd="#FFFFFF" colorItemSelBkgnd="#000088"/>
+         <editstyle inset="5,0,5,0" colorText="#000000" align="left" colorBkgnd="#FFFFFF"/>
+         <items>
+           <item text="同时添加到牛牛和moomoo"  data="100"/>
+           <item text="只添加到牛牛"  data="101"/>
+           <item text="只添加到moomoo"  data="103"/>
+           <item text="牛牛和moomoo文案不同"  data="104"/>
+        </items>
+      </combobox>
+      <button name="btn_finish" pos="|250,{0" size="100,30">添加文案</button>
+      <hr pos="0,[5" size="1250,3" mode="vert" lineStyle="solid" colorLine="#ffffff"/>
+      <check name="cbox_add_id" pos="10,[5,@200,@25" checked="0" >要添加文案ID的起点：</check>
+      <richedit name="redit_key" pos="[10,{0,@150,@25" transparent="0"   enableDragdrop="1" colorBkgnd="#ffffff" colorBorder="#000000" rich="0" number="1" vcenter="1" maxBuf="15" align="center"></richedit>
+      <richedit name="redit_idBegin" pos="[50,{0,@250,@25" rich="0" readOnly="1" >当前最新ID号为：</richedit>
+      <hr pos="0,[5" size="1250,3" mode="vert" lineStyle="solid" colorLine="#ffffff"/>
+      <text pos="100,[5,@150,@20" >自定义宏名</text>
+      <text pos="[270,{0,@100,@20" >文案（简繁英）</text>
+      <text name="tx_moomoo" pos="[300,{0,@200,@20" ></text>
+      <listview pos="15,[5,-15,-60" name="lv_input" dividerSize="5" wantTab="1" headerHeight="30" colorBorder="#000000">
+        <template itemHeight="100" colorHover="#cccccc" colorSelected="#dcdcdc" trackMouseEvent="0">
+          <text name="tx_lineno" size="25,100"/>
+          <richedit name="redit_def" pos="[5,{0,|-80,[0" transparent="0" wantReturn="1" multiLines="1" vscrollBar="1" enableDragdrop="1" autoVscroll="1" wordWrap="1" colorBkgnd="#ffffff" colorBorder="#000000" rich="0"></richedit>
+          <richedit name="redit_language" pos="[20,{0,}-15,[0" transparent="0"  wantReturn="1" multiLines="1" vscrollBar="1"  enableDragdrop="1" autoVscroll="1" wordWrap="1" colorBkgnd="#ffffff" rich="0" ></richedit>
+        </template>
+      </listview>
+      <listview pos="15,{0,-15,-60" name="lv_input_moomoo" dividerSize="5" wantTab="1" headerHeight="30" colorBorder="#000000" >
+        <template itemHeight="100" colorHover="#cccccc" colorSelected="#dcdcdc" trackMouseEvent="0">
+          <text name="tx_lineno" size="25,100"/>
+          <richedit name="redit_def" pos="[5,{0,|-250,[0" transparent="0" wantReturn="1" multiLines="1" vscrollBar="1" enableDragdrop="1" autoVscroll="1" wordWrap="1" colorBkgnd="#ffffff" colorBorder="#000000" rich="0"></richedit>
+          <richedit name="redit_language" pos="[20,{0,|150,[0" transparent="0"  wantReturn="1" multiLines="1" vscrollBar="1"  enableDragdrop="1" autoVscroll="1" wordWrap="1" colorBkgnd="#ffffff" rich="0" ></richedit>
+          <richedit name="redit_language_moomoo" pos="[20,{0,}-15,[0" transparent="0"  wantReturn="1" multiLines="1" vscrollBar="1"  enableDragdrop="1" autoVscroll="1" wordWrap="1" colorBkgnd="#ffffff" rich="0" ></richedit>
+        </template>
+      </listview>
+      <text name="tx_IdFeild" pos="0,]0,@400,@20" >行情ID范围为200000-399999</text>
+      <progress name="prog_test" pos="}-230,}-25,@200,@15" font="adding:-8" value="0" min="0" max="100" showPercent="1"/>
+    </window>
+  </root>
+</SOUI>

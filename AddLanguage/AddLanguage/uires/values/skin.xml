@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<skin>
+  	<imglist name="skin_traymenu_icons"	src="img:traymenu_icons" states="9"/>
+  <imgframe name="skin_tab_left" src="imgx:png_tab_left" states="3" margin="1,1,1,1" />
+	</skin>
