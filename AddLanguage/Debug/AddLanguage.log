@@ -1,0 +1,26 @@
+﻿生成启动时间为 2020/8/4 9:36:26。
+     1>项目“D:\gitlab\study\AddLanguage\AddLanguage\AddLanguage.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\config /I.\components /I.\SOUI\include /I.\utilities\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D STRICT /D _DEBUG /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\AddLanguage.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /FR"Debug\\" /Gd /TP /analyze- /errorReport:prompt MainDlg.cpp
+         MainDlg.cpp
+     1>d:\gitlab\study\addlanguage\addlanguage\maindlg.cpp(117): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\gitlab\study\addlanguage\addlanguage\maindlg.cpp(134): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\gitlab\study\addlanguage\addlanguage\maindlg.cpp(186): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>d:\gitlab\study\addlanguage\addlanguage\maindlg.cpp(293): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\gitlab\study\AddLanguage\Debug\AddLanguage.exe" /INCREMENTAL /NOLOGO /LIBPATH:.\bin utilitiesd.lib souid.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\gitlab\study\AddLanguage\Debug\AddLanguage.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\gitlab\study\AddLanguage\Debug\AddLanguage.lib" /MACHINE:X86 Debug\AddLanguage.res
+         Debug\AddAll.obj
+         Debug\AddLanguage.obj
+         Debug\MainDlg.obj
+         Debug\modalDlg.obj
+         Debug\MyDefine.obj
+         Debug\Myini.obj
+         Debug\stdafx.obj
+         AddLanguage.vcxproj -> D:\gitlab\study\AddLanguage\Debug\AddLanguage.exe
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\bscmake.exe /nologo /o"D:\gitlab\study\AddLanguage\Debug\AddLanguage.bsc" Debug\AddAll.sbr Debug\AddLanguage.sbr Debug\MainDlg.sbr Debug\modalDlg.sbr Debug\MyDefine.sbr Debug\Myini.sbr Debug\stdafx.sbr
+     1>已完成生成项目“D:\gitlab\study\AddLanguage\AddLanguage\AddLanguage.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.42

@@ -1,0 +1,48 @@
+﻿生成启动时间为 2020/8/4 14:07:38。
+     1>项目“D:\gitlab\study\AddLanguage\AddLanguage\AddLanguage.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>CustomBuild:
+         Building SoUI Resource
+         "D:\soui\tools\uiresbuilder.exe"  -i "D:\gitlab\study\AddLanguage\AddLanguage\uires\uires.idx" -p uires -r .\res\soui_res.rc2 -h .\res\resource.h idtable
+         build .\res\soui_res.rc2 succeed!
+         .\res\resource.h not need to update
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\config /I.\components /I.\SOUI\include /I.\utilities\include /Zi /nologo /W3 /WX- /O2 /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\AddLanguage.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\config /I.\components /I.\SOUI\include /I.\utilities\include /Zi /nologo /W3 /WX- /O2 /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\AddLanguage.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt AddAll.cpp AddLanguage.cpp MainDlg.cpp modalDlg.cpp MyDefine.cpp Myini.cpp
+         AddAll.cpp
+     1>AddAll.cpp(7): warning C4553: “==”: 运算符不起任何作用；是否是有意使用“=”的?
+     1>AddAll.cpp(105): warning C4018: “<”: 有符号/无符号不匹配
+     1>AddAll.cpp(150): warning C4018: “<”: 有符号/无符号不匹配
+     1>AddAll.cpp(160): warning C4018: “<”: 有符号/无符号不匹配
+     1>AddAll.cpp(170): warning C4018: “<”: 有符号/无符号不匹配
+     1>AddAll.cpp(182): warning C4018: “<”: 有符号/无符号不匹配
+     1>AddAll.cpp(192): warning C4018: “<”: 有符号/无符号不匹配
+     1>AddAll.cpp(202): warning C4018: “<”: 有符号/无符号不匹配
+         AddLanguage.cpp
+         MainDlg.cpp
+     1>MainDlg.cpp(117): warning C4018: “<”: 有符号/无符号不匹配
+     1>MainDlg.cpp(134): warning C4018: “<”: 有符号/无符号不匹配
+     1>MainDlg.cpp(186): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>MainDlg.cpp(302): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+         modalDlg.cpp
+         MyDefine.cpp
+         Myini.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0804" /I".\soui-sys-resource" /nologo /fo"Release\AddLanguage.res" AddLanguage.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\gitlab\study\AddLanguage\Release\AddLanguage.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:.\bin utilities.lib soui.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"D:\gitlab\study\AddLanguage\Release\AddLanguage.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\gitlab\study\AddLanguage\Release\AddLanguage.lib" /MACHINE:X86 /SAFESEH /LTCG Release\AddLanguage.res
+         Release\AddAll.obj
+         Release\AddLanguage.obj
+         Release\MainDlg.obj
+         Release\modalDlg.obj
+         Release\MyDefine.obj
+         Release\Myini.obj
+         Release\stdafx.obj
+         正在生成代码
+         已完成代码的生成
+         AddLanguage.vcxproj -> D:\gitlab\study\AddLanguage\Release\AddLanguage.exe
+     1>已完成生成项目“D:\gitlab\study\AddLanguage\AddLanguage\AddLanguage.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:06.77
